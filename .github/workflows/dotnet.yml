@@ -1,0 +1,36 @@
+name: Build and Deploy .NET Application
+
+on:
+  push:
+    branches:
+      - main  # Se ejecuta cuando haces push a la rama main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v3
+
+      - name: Set up .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '9.0.x' # Ajustado a 9.0 según tu captura (si falla, prueba 8.0.x)
+
+      - name: Restore dependencies
+        run: dotnet restore
+
+      - name: Build application
+        run: dotnet build --configuration Release --no-restore
+
+      - name: Publish application
+        run: dotnet publish --configuration Release --no-build --output ./published
+
+    # El paso de "Deploy to server" del documento original fallará porque
+    # no tienes un servidor real configurado con SSH. 
+    # Lo he comentado para que la Action termine en VERDE (Éxito).
+    
+    # - name: Deploy to server (Ejemplo del doc)
+    #   run: |
+    #     scp -r ./published username@server:/path/to/deploy
