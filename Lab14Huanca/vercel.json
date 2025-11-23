@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "*.csproj",
+      "use": "@vercel/static-build",
+      "config": {
+        "command": "dotnet publish -c Release -o out",
+        "outputDirectory": "out"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
