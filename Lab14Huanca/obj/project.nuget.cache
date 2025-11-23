@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "lCLxJQkgkUY=",
+  "success": true,
+  "projectFilePath": "C:\\Lab .net\\Lab14Huanca\\Lab14Huanca\\Lab14Huanca.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zonav\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.8\\microsoft.aspnetcore.openapi.9.0.8.nupkg.sha512",
+    "C:\\Users\\zonav\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}

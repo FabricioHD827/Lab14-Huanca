@@ -1,0 +1,9 @@
+C:\Lab .net\Lab14Huanca\Lab14Huanca\bin\Release\net9.0\publish\Lab14Huanca.exe
+C:\Lab .net\Lab14Huanca\Lab14Huanca\bin\Release\net9.0\publish\appsettings.Development.json
+C:\Lab .net\Lab14Huanca\Lab14Huanca\bin\Release\net9.0\publish\appsettings.json
+C:\Lab .net\Lab14Huanca\Lab14Huanca\bin\Release\net9.0\publish\Lab14Huanca.dll
+C:\Lab .net\Lab14Huanca\Lab14Huanca\bin\Release\net9.0\publish\Lab14Huanca.deps.json
+C:\Lab .net\Lab14Huanca\Lab14Huanca\bin\Release\net9.0\publish\Lab14Huanca.runtimeconfig.json
+C:\Lab .net\Lab14Huanca\Lab14Huanca\bin\Release\net9.0\publish\Lab14Huanca.pdb
+C:\Lab .net\Lab14Huanca\Lab14Huanca\bin\Release\net9.0\publish\Microsoft.AspNetCore.OpenApi.dll
+C:\Lab .net\Lab14Huanca\Lab14Huanca\bin\Release\net9.0\publish\Microsoft.OpenApi.dll
