@@ -2,18 +2,12 @@
   "version": 2,
   "builds": [
     {
-      "src": "*.csproj",
+      "src": "Lab14Huanca/Lab14Huanca.csproj",
       "use": "@vercel/static-build",
       "config": {
-        "command": "dotnet publish -c Release -o out",
+        "command": "dotnet publish Lab14Huanca/Lab14Huanca.csproj -c Release -o out",
         "outputDirectory": "out"
       }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
     }
   ]
 }
